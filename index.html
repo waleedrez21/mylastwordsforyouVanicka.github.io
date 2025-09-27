@@ -74,8 +74,38 @@
                     <div class="p-4">
                         <h3 class="text-xl font-semibold text-gray-800 text-center">My Last Words For You</h3>
                     </div>
+       Adding video section under the 4 boxes 
+        <div class="max-w-4xl mx-auto mt-16">
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden">
+                <div class="bg-gradient-to-r from-purple-100 to-pink-100 p-6 text-center">
+                    <h2 class="text-2xl md:text-3xl font-semibold text-gray-800 mb-2">One More Thing...</h2>
+                    <p class="text-gray-600">A final message from my heart to yours</p>
                 </div>
-            </a>
+                <div class="p-6">
+                    <div class="relative rounded-xl overflow-hidden shadow-lg">
+                        <video 
+                            class="w-full h-auto rounded-xl"
+                            controls
+                            preload="metadata"
+                            playsinline
+                            webkit-playsinline
+                            muted
+                            poster="./images/final-video-poster.jpg"
+                        >
+                            <source src="./images/final-message.mp4" type="video/mp4; codecs=avc1.42E01E,mp4a.40.2">
+                            <source src="./images/final-message.webm" type="video/webm; codecs=vp8,vorbis">
+                            <source src="./images/final-message.mov" type="video/quicktime">
+                            <p class="text-center text-gray-600 p-4">
+                                Your browser doesn't support video playback. 
+                                <a href="./images/final-message.mp4" class="text-purple-600 hover:underline">Download the video</a> to watch it.
+                            </p>
+                        </video>
+                    </div>
+                    <div class="text-center mt-4">
+                        <p class="text-gray-600 italic">With all my love, always and forever ❤️</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
