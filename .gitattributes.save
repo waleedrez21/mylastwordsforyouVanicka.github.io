@@ -1,0 +1,17 @@
+git add .gitattributes
+git commit -m "Remove LFS tracking for video"
+git add .gitattributes
+git commit -m "Remove LFS tracking for video"
+
+git add .gitattributes
+git commit -m "Remove LFS tracking for video"
+rm -rf .git
+
+rm -rf .git
+
+git add .gitattributes
+git commit -m "Remove LFS tracking for video"
+^x
+^X
+filter=lfs diff=lfs merge=lfs 
+-text
