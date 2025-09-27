@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our First Memory - Love Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-pink-100 via-purple-50 to-indigo-100">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <!-- Back Button -->
+        <div class="mb-6">
+            <a href="./index.html" class="inline-flex items-center text-purple-600 hover:text-purple-800 transition-colors">
+                <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                </svg>
+                Back to Main Page
+            </a>
+        </div>
+
+        <!-- Page Title -->
+        <h1 class="text-4xl font-bold text-center text-gray-800 mb-8 text-balance">Our First Memory</h1>
+
+        <!-- Music Player -->
+        <div class="bg-white/90 backdrop-blur-sm rounded-xl shadow-lg p-4 mb-6 max-w-md mx-auto">
+            <div class="flex items-center space-x-3">
+                <div class="flex-shrink-0">
+                    <svg class="w-8 h-8 text-pink-500" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/>
+                    </svg>
+                </div>
+                <div class="flex-1">
+                    <audio controls class="w-full">
+                        <source src="./music/song1.mp3" type="audio/mpeg">
+                        <source src="./music/song1.wav" type="audio/wav">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+            <p class="text-center text-sm text-gray-600 mt-2">Our Song - First Memory</p>
+        </div>
+
+        <!-- Main Content -->
+        <div class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-xl p-6 md:p-8 mb-8">
+            <!-- Small Featured Image -->
+            <div class="flex justify-center mb-6">
+                <img src="./vanicka1.jpg" 
+                     alt="Our first memory together" 
+                     class="rounded-lg shadow-md w-72 h-48 object-cover">
+            </div>
+
+            <!-- Enhanced text content area with better wrapping and unlimited space -->
+            <div class="w-full max-w-none">
+                <div class="text-xl mb-6 text-center italic text-purple-700 break-words">
+                    "The moment I first saw you, I knew my life would never be the same..."
+                </div>
+                
+                <!-- Improved text area with proper word wrapping and spacing -->
+                <div class="space-y-4 text-gray-700 leading-relaxed text-base md:text-lg">
+                    <p class="break-words hyphens-auto">
+                        I remember that day so clearly. It was [DATE] when we first met at [LOCATION]. You were wearing [DESCRIPTION] and when you smiled, the whole world seemed to light up. I never believed in love at first sight until that moment.
+                    </p>
+                    
+                    <p class="break-words hyphens-auto">
+                        We talked for hours about [TOPIC], and I was amazed by how easy it was to be myself around you. Your laugh was infectious, and your eyes sparkled when you talked about the things you were passionate about.
+                    </p>
+                    
+                    <p class="break-words hyphens-auto">
+                        That first conversation turned into our first date, which turned into countless more. Every moment with you has been a gift, and I'm so grateful that our paths crossed that day.
+                    </p>
+
+                    <!-- Added space for unlimited additional text -->
+                    <div class="mt-6 p-4 bg-gray-50 rounded-lg border-2 border-dashed border-gray-300">
+                        <p class="text-gray-500 text-center italic mb-4">Add your own text here - as much as you want!</p>
+                        <div class="min-h-[200px] break-words hyphens-auto text-gray-700">
+                            <!-- You can add unlimited text here. It will automatically wrap and create new lines as needed. 
+                                 Just replace this comment with your own words and memories. -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Small Photo Gallery -->
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-8">
+                <img src="./vanicka1.jpg" 
+                     alt="Memory photo 1" 
+                     class="rounded-lg shadow-sm w-full h-24 object-cover">
+                <img src="./vanicka1.jpg" 
+                     alt="Memory photo 2" 
+                     class="rounded-lg shadow-sm w-full h-24 object-cover">
+                <img src="./vanicka1.jpg" 
+                     alt="Memory photo 3" 
+                     class="rounded-lg shadow-sm w-full h-24 object-cover">
+            </div>
+        </div>
+
+        <!-- Quote Section -->
+        <div class="bg-purple-100/80 backdrop-blur-sm rounded-xl p-6 text-center">
+            <blockquote class="text-lg italic text-purple-800 break-words">
+                "In all the world, there is no heart for me like yours. In all the world, there is no love for you like mine."
+            </blockquote>
+            <cite class="block mt-2 text-sm text-purple-600">- Maya Angelou</cite>
+        </div>
+    </div>
+</body>
+</html>

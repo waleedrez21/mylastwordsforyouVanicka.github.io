@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Last Words For You Vanicka</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background: linear-gradient(135deg, #ffeef8 0%, #f3e7ff 100%);
+            min-height: 100vh;
+        }
+    </style>
+</head>
+<body class="font-sans">
+    <div class="container mx-auto px-4 py-12">
+         Main Title 
+        <h1 class="text-4xl md:text-6xl font-bold text-center text-gray-800 mb-12 text-balance">
+            My Last Words For You Vanicka
+        </h1>
+        
+         Video Section 
+        <div class="max-w-4xl mx-auto mb-16">
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden">
+                <div class="bg-gradient-to-r from-pink-100 to-purple-100 p-6 text-center">
+                    <h2 class="text-2xl md:text-3xl font-semibold text-gray-800 mb-2">A Special Message For You</h2>
+                    <p class="text-gray-600">Watch this before exploring our memories</p>
+                </div>
+                <div class="p-6">
+                    <div class="relative rounded-xl overflow-hidden shadow-lg">
+                        <video 
+                            class="w-full h-auto rounded-xl"
+                            controls
+                            preload="metadata"
+                            playsinline
+                            webkit-playsinline
+                            muted
+                            poster="./images/video-poster.jpg"
+                        >
+                            <source src="./videos/homepage-video.mp4" type="video/mp4; codecs=avc1.42E01E,mp4a.40.2">
+                            <source src="./videos/homepage-video.webm" type="video/webm; codecs=vp8,vorbis">
+                            <source src="./videos/homepage-video.mov" type="video/quicktime">
+                            <p class="text-center text-gray-600 p-4">
+                                Your browser doesn't support video playback. 
+                                <a href="./videos/homepage-video.mp4" class="text-pink-600 hover:underline">Download the video</a> to watch it.
+                            </p>
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+         Photo Grid 
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+             Photo Box 1 
+            <a href="./page1.html" class="group block">
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:scale-105">
+                    <div class="aspect-square overflow-hidden">
+                         Updated path to use images folder 
+                        <img src="./images/vanicka1.jpg?height=300&width=300" 
+                             alt="Our First Memory" 
+                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold text-gray-800 text-center">Our Beginning</h3>
+                    </div>
+                </div>
+            </a>
+            
+             Photo Box 2 
+            <a href="./page2.html" class="group block">
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:scale-105">
+                    <div class="aspect-square overflow-hidden">
+                         Updated path to use images folder 
+                        <img src="./images/vanicka2.jpg?height=300&width=300" 
+                             alt="Our Adventures" 
+                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold text-gray-800 text-center">Our Adventures</h3>
+                    </div>
+                </div>
+            </a>
+            
+             Photo Box 3 
+            <a href="./page3.html" class="group block">
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:scale-105">
+                    <div class="aspect-square overflow-hidden">
+                         Updated path to use images folder 
+                        <img src="./images/vanicka3.jpg?height=300&width=300" 
+                             alt="Our Love" 
+                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold text-gray-800 text-center">Our Love</h3>
+                    </div>
+                </div>
+            </a>
+            
+             Photo Box 4 
+            <a href="./page4.html" class="group block">
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:scale-105">
+                    <div class="aspect-square overflow-hidden">
+                         Updated path to use images folder 
+                        <img src="./images/vanicka4.jpg?height=300&width=300" 
+                             alt="Our Future" 
+                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold text-gray-800 text-center">Our Future</h3>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
